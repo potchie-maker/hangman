@@ -1,3 +1,3 @@
 require_relative 'lib/hangman'
 
-Hangman::Game.get_words
+puts Hangman::Game.new.secret_word
