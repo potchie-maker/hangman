@@ -23,7 +23,6 @@ module Hangman
         else
           self.attempts -= 1
           puts "\nThat letter is not in the word."
-          puts "\nYou have #{attempts} tries remaining"
 
           self.save_remaining_tries = attempts
 
@@ -33,6 +32,7 @@ module Hangman
             wrong_guesses << guess
           end
         end
+        puts "\nYou have #{attempts} tries remaining"
         puts "\nYour current wrong guesses are: #{wrong_guesses.join(", ")}"
 
         self.save_word_progress = filled_in
@@ -51,11 +51,6 @@ module Hangman
     def secret_word
       secret_word = self.get_words.sample
       secret_word
-    end
-
-    def hide_word(word)
-      blanks = word.chars.map { "_" }
-      blanks
     end
 
     def get_guess
