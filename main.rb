@@ -1,3 +1,3 @@
 require_relative 'lib/hangman'
 
- Hangman::Game.new.play_game
+ Hangman::Game.new.load_option

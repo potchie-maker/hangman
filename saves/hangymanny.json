@@ -1,0 +1,16 @@
+{
+  "secret": "danish",
+  "wrong_guesses": [
+    "f",
+    "r"
+  ],
+  "word_progress": [
+    "d",
+    "_",
+    "_",
+    "_",
+    "s",
+    "_"
+  ],
+  "remaining_tries": 4
+}

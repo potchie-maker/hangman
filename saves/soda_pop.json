@@ -1,0 +1,16 @@
+{
+  "secret": "seems",
+  "wrong_guesses": [
+    "y",
+    "c",
+    "k"
+  ],
+  "word_progress": [
+    "s",
+    "e",
+    "e",
+    "_",
+    "s"
+  ],
+  "remaining_tries": 3
+}
